@@ -22,7 +22,7 @@ set -e
 SCRIPT_COMMIT_SHA="${LOAD_SCRIPT_COMMIT_SHA}"
 
 # strip "v" prefix if present
-VERSION="${VERSION#v}"
+VERSION="23.0.0"
 
 # The channel to install from:
 #   * nightly
